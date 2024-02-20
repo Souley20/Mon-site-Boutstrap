@@ -1,0 +1,30 @@
+/* Ceci est un commentaire non interprété par le navigateur */
+/* le sélecteur de titre h1 */
+h1 {
+  /* propriété : valeur */
+  text-align: center;
+  font-size: 25px;
+  color: darkgreen;
+}
+p {
+  text-align: justi
+  margin: 0 10px;
+  color: auto;
+}
+main {
+margin: 0 10px;
+max-width: 1200px
+}
+/* style de base pour le site*/
+section {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 10px;
+  margin: 0 10px;
+
+}
+/* Styles pour les écrans de tablettes */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Vos styles pour les écrans de tablettes ici */
+}
